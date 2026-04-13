@@ -22,4 +22,13 @@ sensors = {
         'light': 450,
         'unit': 'lux'
     }
+
+    
+    print(sensors['dht11']['temperature'])  
+
+
+    print(sensors['dht11']['humidity'])    
+
+
+    print(sensors['bh1750']['illuminance']) 
 }
