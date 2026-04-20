@@ -1,0 +1,21 @@
+6
+sensors = {
+    'dht11': {
+        'temperature': 23,
+        'humidity': 47,
+        'unit': 'celsius'
+    },
+    'bh1750': {
+        'light': 450,
+        'unit': 'lux'
+    }
+
+    
+    print(sensors['dht11']['temperature'])  
+
+
+    print(sensors['dht11']['humidity'])    
+
+
+    print(sensors['bh1750']['illuminance']) 
+}
